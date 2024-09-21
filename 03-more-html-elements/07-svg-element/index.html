@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .blob {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - SVG Element</h1>
+
+    <svg width="200" height="200">
+      <circle
+        cx="90"
+        cy="100"
+        r="80"
+        fill="blue"
+        stroke="black"
+        stroke-width="5"
+      />
+      <text x="47" y="110" font-size="40" font-family="Verdana" fill="white">
+        SVG
+      </text>
+    </svg>
+    <br /><br />
+    <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fill="#FF0066"
+        d="M36.1,-64.6C46.1,-56.7,53.1,-45.7,58.2,-34.4C63.2,-23.1,66.5,-11.6,66.9,0.2C67.2,12,64.8,24,59.2,34.4C53.5,44.7,44.7,53.5,34.3,62.9C24,72.3,12,82.3,-1.5,84.9C-15,87.5,-29.9,82.6,-39.4,72.7C-48.8,62.7,-52.8,47.8,-61.7,34.8C-70.6,21.9,-84.5,10.9,-86.8,-1.4C-89.1,-13.6,-80,-27.3,-70.7,-39.5C-61.4,-51.7,-51.9,-62.5,-40,-69.4C-28.2,-76.3,-14.1,-79.2,-0.5,-78.3C13,-77.4,26.1,-72.6,36.1,-64.6Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+  </body>
+</html>
